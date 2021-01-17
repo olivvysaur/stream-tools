@@ -4,7 +4,7 @@ import styles from './BowtieSpinner.module.css';
 
 const BOWTIE_WIDTH = 64;
 const BOWTIE_HEIGHT = 64;
-const ROW_GAP = 64;
+const ROW_GAP = 68;
 const COLUMN_GAP = 128;
 
 export const BowtieSpinner = () => {
