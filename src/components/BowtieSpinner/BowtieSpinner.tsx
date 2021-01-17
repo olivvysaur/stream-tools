@@ -21,7 +21,7 @@ export const BowtieSpinner = () => {
     const { width, height } = canvas.current.getBoundingClientRect();
     setRows(Math.ceil(height / (BOWTIE_HEIGHT + ROW_GAP)) + 1);
     setColumns(Math.ceil(width / (BOWTIE_WIDTH + COLUMN_GAP)) + 1);
-  }, [canvas.current]);
+  }, [canvas]);
 
   console.log(rows, columns);
 
@@ -46,4 +46,6 @@ export const BowtieSpinner = () => {
   );
 };
 
-const Bowtie = () => <img src='/images/bowtie.png' className={styles.bowtie} />;
+const Bowtie = () => (
+  <img src='/images/bowtie.png' className={styles.bowtie} alt='' />
+);

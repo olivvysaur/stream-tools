@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { BowtieSpinner } from './components/BowtieSpinner';
 import { VideoBoundingBox } from './components/VideoBoundingBox';
