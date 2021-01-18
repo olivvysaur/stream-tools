@@ -1,0 +1,19 @@
+.wrapper {
+  width: 1920px;
+  height: 1080px;
+  z-index: 999;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-size: 100px;
+  font-family: 'Fredoka One';
+  text-align: center;
+  color: white;
+  padding: 48px 32px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 32px;
+}
