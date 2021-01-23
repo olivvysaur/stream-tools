@@ -22,3 +22,23 @@
   width: 64px;
   height: 64px;
 }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.5);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+.spinning {
+  animation: spin 1.5s linear infinite;
+}
+
+.reverse {
+  animation-direction: reverse;
+}
